@@ -44,6 +44,13 @@ Explanation: A single node has no edges, so the diameter is 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func diameterOfBinaryTree(root *TreeNode) int
+```
+
+**Python:**
+```python
+def diameter_of_binary_tree(root: Optional[TreeNode]) -> int:
 ```

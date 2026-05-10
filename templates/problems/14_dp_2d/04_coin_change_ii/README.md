@@ -44,6 +44,13 @@ Explanation: There is one way to make amount 0: use no coins.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func change(amount int, coins []int) int
+```
+
+**Python:**
+```python
+def change(amount: int, coins: List[int]) -> int:
 ```

@@ -47,6 +47,13 @@ Explanation: The array has one element equal to the target.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func searchRotated(nums []int, target int) int
+```
+
+**Python:**
+```python
+def search_rotated(nums: List[int], target: int) -> int:
 ```

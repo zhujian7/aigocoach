@@ -48,6 +48,13 @@ Explanation: A single-element matrix has only one element in spiral order.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func spiralOrder(matrix [][]int) []int
+```
+
+**Python:**
+```python
+def spiral_order(matrix: List[List[int]]) -> List[int]:
 ```

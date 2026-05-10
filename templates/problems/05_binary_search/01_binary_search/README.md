@@ -46,6 +46,13 @@ Explanation: 5 exists in nums and its index is 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func search(nums []int, target int) int
+```
+
+**Python:**
+```python
+def search(nums: List[int], target: int) -> int:
 ```

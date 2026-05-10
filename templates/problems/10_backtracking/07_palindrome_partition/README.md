@@ -41,6 +41,13 @@ Output: [["a","a","a"], ["a","aa"], ["aa","a"], ["aaa"]]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func partition(s string) [][]string
+```
+
+**Python:**
+```python
+def partition(s: str) -> List[List[str]]:
 ```

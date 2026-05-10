@@ -55,6 +55,8 @@ Explanation: Words "the", "then", and "them" share the prefix "the". Searching f
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type Trie struct {
     Root *TrieNode
@@ -67,4 +69,13 @@ func (t *Trie) Insert(word string)
 func (t *Trie) Search(word string) bool
 
 func (t *Trie) StartsWith(prefix string) bool
+```
+
+**Python:**
+```python
+class Trie
+def __init__(self):
+def insert(self, word: str) -> None:
+def search(self, word: str) -> bool:
+def starts_with(self, prefix: str) -> bool:
 ```

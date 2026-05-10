@@ -45,6 +45,13 @@ Explanation: -2 appears 3 times, which is the most frequent element.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func topKFrequent(nums []int, k int) []int
+```
+
+**Python:**
+```python
+def top_k_frequent(nums: List[int], k: int) -> List[int]:
 ```

@@ -44,8 +44,16 @@ Explanation: A single node tree is preserved through serialization and deseriali
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func serialize(root *TreeNode) string
 
 func deserialize(data string) *TreeNode
+```
+
+**Python:**
+```python
+def serialize(root: Optional[TreeNode]) -> str:
+def deserialize(data: str) -> Optional[TreeNode]:
 ```

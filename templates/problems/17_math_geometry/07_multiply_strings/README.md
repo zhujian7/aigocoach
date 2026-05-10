@@ -43,6 +43,13 @@ Explanation: Any number multiplied by 0 is 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func multiply(num1 string, num2 string) string
+```
+
+**Python:**
+```python
+def multiply(num1: str, num2: str) -> str:
 ```

@@ -45,6 +45,13 @@ Explanation: No replacements needed. The entire string already consists of the s
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func characterReplacement(s string, k int) int
+```
+
+**Python:**
+```python
+def character_replacement(s: str, k: int) -> int:
 ```

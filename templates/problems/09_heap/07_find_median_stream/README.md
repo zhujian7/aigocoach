@@ -62,6 +62,8 @@ Explanation: After adding all elements, the sorted list is [1,2,3,4,5]. The medi
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type MedianFinder struct {}
 
@@ -70,4 +72,12 @@ func ConstructorMedianFinder() MedianFinder
 func (mf *MedianFinder) AddNum(num int)
 
 func (mf *MedianFinder) FindMedian() float64
+```
+
+**Python:**
+```python
+class MedianFinder
+def __init__(self):
+def add_num(self, num: int) -> None:
+def find_median(self) -> float:
 ```

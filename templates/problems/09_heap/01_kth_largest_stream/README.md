@@ -53,10 +53,19 @@ Explanation: With k=1, the 1st largest is always the maximum element in the stre
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type KthLargest struct {}
 
 func Constructor(k int, nums []int) KthLargest
 
 func (kl *KthLargest) Add(val int) int
+```
+
+**Python:**
+```python
+class KthLargest
+def __init__(self, k: int, nums: List[int]):
+def add(self, val: int) -> int:
 ```

@@ -50,6 +50,13 @@ Explanation: Both cars travel at the same speed but the car at position 50 is ah
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func carFleet(target int, position []int, speed []int) int
+```
+
+**Python:**
+```python
+def car_fleet(target: int, position: List[int], speed: List[int]) -> int:
 ```

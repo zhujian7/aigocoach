@@ -46,6 +46,13 @@ Explanation: The root is always a good node.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func goodNodes(root *TreeNode) int
+```
+
+**Python:**
+```python
+def good_nodes(root: Optional[TreeNode]) -> int:
 ```

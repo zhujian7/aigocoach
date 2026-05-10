@@ -41,6 +41,13 @@ Output: 10
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func countSubstrings(s string) int
+```
+
+**Python:**
+```python
+def count_substrings(s: str) -> int:
 ```

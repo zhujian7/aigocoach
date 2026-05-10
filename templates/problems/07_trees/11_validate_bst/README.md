@@ -46,6 +46,13 @@ Explanation: Node 3 is in the right subtree of root 5 but has value 3, which is 
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isValidBST(root *TreeNode) bool
+```
+
+**Python:**
+```python
+def is_valid_bst(root: Optional[TreeNode]) -> bool:
 ```

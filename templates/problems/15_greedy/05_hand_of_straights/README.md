@@ -42,6 +42,13 @@ Output: true
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isNStraightHand(hand []int, groupSize int) bool
+```
+
+**Python:**
+```python
+def is_n_straight_hand(hand: List[int], group_size: int) -> bool:
 ```

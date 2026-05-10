@@ -45,6 +45,13 @@ Explanation: All three intervals overlap and merge into a single interval [1,6].
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func merge(intervals [][]int) [][]int
+```
+
+**Python:**
+```python
+def merge(intervals: List[List[int]]) -> List[List[int]]:
 ```

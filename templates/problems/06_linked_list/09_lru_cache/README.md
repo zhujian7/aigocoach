@@ -59,10 +59,20 @@ Explanation: With capacity 1, putting key 2 evicts key 1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type LRUCache struct{}
 
 func Constructor(capacity int) LRUCache
 func (c *LRUCache) Get(key int) int
 func (c *LRUCache) Put(key int, value int)
+```
+
+**Python:**
+```python
+class LRUCache
+def __init__(self, capacity: int):
+def get(self, key: int) -> int:
+def put(self, key: int, value: int) -> None:
 ```

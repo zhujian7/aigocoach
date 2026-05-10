@@ -44,6 +44,13 @@ Explanation: An empty tree produces an empty result.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func levelOrder(root *TreeNode) [][]int
+```
+
+**Python:**
+```python
+def level_order(root: Optional[TreeNode]) -> List[List[int]]:
 ```

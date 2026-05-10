@@ -45,6 +45,13 @@ Output: 0
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func longestConsecutive(nums []int) int
+```
+
+**Python:**
+```python
+def longest_consecutive(nums: List[int]) -> int:
 ```

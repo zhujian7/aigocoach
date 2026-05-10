@@ -34,6 +34,13 @@ Explanation: Start at index 0 and follow the path with indices 0, 2, 4, 6, 7, 9 
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minCostClimbingStairs(cost []int) int
+```
+
+**Python:**
+```python
+def min_cost_climbing_stairs(cost: List[int]) -> int:
 ```

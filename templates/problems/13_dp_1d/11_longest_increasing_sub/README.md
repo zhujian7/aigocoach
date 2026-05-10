@@ -40,6 +40,13 @@ Output: 1
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func lengthOfLIS(nums []int) int
+```
+
+**Python:**
+```python
+def length_of_lis(nums: List[int]) -> int:
 ```

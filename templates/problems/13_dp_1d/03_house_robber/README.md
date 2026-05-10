@@ -41,6 +41,13 @@ Output: 300
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func rob(nums []int) int
+```
+
+**Python:**
+```python
+def rob(nums: List[int]) -> int:
 ```

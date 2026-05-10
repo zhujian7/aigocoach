@@ -42,6 +42,13 @@ Explanation: Insert three characters to transform the empty string into "abc".
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minDistance(word1 string, word2 string) int
+```
+
+**Python:**
+```python
+def min_distance(word1: str, word2: str) -> int:
 ```

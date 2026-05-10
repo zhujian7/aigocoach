@@ -43,6 +43,13 @@ Explanation: One possible schedule: A B C A D E A F G A idle idle A idle idle A.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func leastInterval(tasks []byte, n int) int
+```
+
+**Python:**
+```python
+def least_interval(tasks: str, n: int) -> int:
 ```

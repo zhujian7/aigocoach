@@ -45,6 +45,13 @@ Explanation: There is only one element, so it is the single number.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func singleNumber(nums []int) int
+```
+
+**Python:**
+```python
+def single_number(nums: List[int]) -> int:
 ```

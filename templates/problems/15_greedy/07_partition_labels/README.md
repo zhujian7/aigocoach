@@ -42,6 +42,13 @@ Explanation: Each character appears only once, so each character is its own part
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func partitionLabels(s string) []int
+```
+
+**Python:**
+```python
+def partition_labels(s: str) -> List[int]:
 ```

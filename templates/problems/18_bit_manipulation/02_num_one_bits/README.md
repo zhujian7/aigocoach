@@ -41,6 +41,13 @@ Explanation: The binary representation has thirty-one 1 bits.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func hammingWeight(n uint32) int
+```
+
+**Python:**
+```python
+def hamming_weight(n: int) -> int:
 ```

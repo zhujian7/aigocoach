@@ -43,6 +43,13 @@ Explanation: All three meetings overlap with each other, so three rooms are need
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minMeetingRooms(intervals [][]int) int
+```
+
+**Python:**
+```python
+def min_meeting_rooms(intervals: List[List[int]]) -> int:
 ```

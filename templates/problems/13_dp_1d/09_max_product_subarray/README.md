@@ -43,6 +43,13 @@ Explanation: The subarray [-2,-3] has the product 6.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxProduct(nums []int) int
+```
+
+**Python:**
+```python
+def max_product(nums: List[int]) -> int:
 ```

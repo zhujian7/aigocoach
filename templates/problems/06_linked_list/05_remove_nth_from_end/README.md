@@ -48,6 +48,13 @@ Explanation: The last node (value 2) is removed.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func removeNthFromEnd(head *ListNode, n int) *ListNode
+```
+
+**Python:**
+```python
+def remove_nth_from_end(head: Optional[ListNode], n: int) -> Optional[ListNode]:
 ```

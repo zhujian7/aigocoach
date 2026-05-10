@@ -49,6 +49,13 @@ Explanation:
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minInterval(intervals [][]int, queries []int) []int
+```
+
+**Python:**
+```python
+def min_interval(intervals: List[List[int]], queries: List[int]) -> List[int]:
 ```

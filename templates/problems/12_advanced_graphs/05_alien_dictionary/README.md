@@ -45,6 +45,13 @@ Explanation: The order is invalid because 'z' must come both before and after 'x
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func alienOrder(words []string) string
+```
+
+**Python:**
+```python
+def alien_order(words: List[str]) -> str:
 ```

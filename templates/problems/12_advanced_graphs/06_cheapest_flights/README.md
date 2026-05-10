@@ -59,6 +59,13 @@ Explanation: There is no route from 0 to 2.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int
+```
+
+**Python:**
+```python
+def find_cheapest_price(n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
 ```

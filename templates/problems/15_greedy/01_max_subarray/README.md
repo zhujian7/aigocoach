@@ -42,6 +42,13 @@ Explanation: The subarray [-1] has the largest sum -1. Even though it's negative
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxSubArray(nums []int) int
+```
+
+**Python:**
+```python
+def max_sub_array(nums: List[int]) -> int:
 ```

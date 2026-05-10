@@ -49,6 +49,13 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times (ba
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findMin(nums []int) int
+```
+
+**Python:**
+```python
+def find_min(nums: List[int]) -> int:
 ```

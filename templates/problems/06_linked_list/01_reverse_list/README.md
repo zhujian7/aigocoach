@@ -48,6 +48,13 @@ Explanation: An empty list remains empty after reversal.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func reverseList(head *ListNode) *ListNode
+```
+
+**Python:**
+```python
+def reverse_list(head: Optional[ListNode]) -> Optional[ListNode]:
 ```

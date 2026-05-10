@@ -44,6 +44,13 @@ Explanation: The only possible triplet sums up to 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func threeSum(nums []int) [][]int
+```
+
+**Python:**
+```python
+def three_sum(nums: List[int]) -> List[List[int]]:
 ```

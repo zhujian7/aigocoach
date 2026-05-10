@@ -47,6 +47,13 @@ Explanation: At speed 23, Koko takes 2+1+1+1+1 = 6 hours, fitting within h = 6.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minEatingSpeed(piles []int, h int) int
+```
+
+**Python:**
+```python
+def min_eating_speed(piles: List[int], h: int) -> int:
 ```

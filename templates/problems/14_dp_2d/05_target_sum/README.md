@@ -43,6 +43,13 @@ Explanation: It is impossible to reach target 2 with a single element of value 1
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findTargetSumWays(nums []int, target int) int
+```
+
+**Python:**
+```python
+def find_target_sum_ways(nums: List[int], target: int) -> int:
 ```

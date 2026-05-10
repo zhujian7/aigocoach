@@ -44,6 +44,13 @@ Explanation: The answer is "wke", with the length of 3. Note that "pwke" is a su
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func lengthOfLongestSubstring(s string) int
+```
+
+**Python:**
+```python
+def length_of_longest_substring(s: str) -> int:
 ```

@@ -43,6 +43,13 @@ Output: [["a"]]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func groupAnagrams(strs []string) [][]string
+```
+
+**Python:**
+```python
+def group_anagrams(strs: List[str]) -> List[List[str]]:
 ```

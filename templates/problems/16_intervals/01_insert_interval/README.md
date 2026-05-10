@@ -50,6 +50,13 @@ Explanation: There are no existing intervals, so we just insert the new one.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func insert(intervals [][]int, newInterval []int) [][]int
+```
+
+**Python:**
+```python
+def insert(intervals: List[List[int]], new_interval: List[int]) -> List[List[int]]:
 ```

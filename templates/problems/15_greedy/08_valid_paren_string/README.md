@@ -41,6 +41,13 @@ Explanation: '*' can be treated as '(', making the string "(())" which is valid.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func checkValidString(s string) bool
+```
+
+**Python:**
+```python
+def check_valid_string(s: str) -> bool:
 ```

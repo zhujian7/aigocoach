@@ -46,6 +46,13 @@ Explanation: At level 0 you see 1, at level 1 node 3 is rightmost, at level 2 no
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func rightSideView(root *TreeNode) []int
+```
+
+**Python:**
+```python
+def right_side_view(root: Optional[TreeNode]) -> List[int]:
 ```

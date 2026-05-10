@@ -44,6 +44,13 @@ Explanation: After removing non-alphanumeric characters, s is an empty string ""
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isPalindrome(s string) bool
+```
+
+**Python:**
+```python
+def is_palindrome(s: str) -> bool:
 ```

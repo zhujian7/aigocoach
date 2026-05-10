@@ -49,6 +49,13 @@ Explanation: The sum of -1 and 0 is -1. Therefore, index1 = 1, index2 = 2. We re
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func twoSumII(numbers []int, target int) []int
+```
+
+**Python:**
+```python
+def two_sum_ii(numbers: List[int], target: int) -> List[int]:
 ```

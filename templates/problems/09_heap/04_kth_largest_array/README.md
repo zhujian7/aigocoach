@@ -42,6 +42,13 @@ Explanation: The only element is the 1st largest.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findKthLargest(nums []int, k int) int
+```
+
+**Python:**
+```python
+def find_kth_largest(nums: List[int], k: int) -> int:
 ```

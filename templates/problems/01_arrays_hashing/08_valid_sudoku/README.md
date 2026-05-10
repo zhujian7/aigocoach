@@ -60,6 +60,13 @@ Explanation: The first row contains two 5's, which violates the rule.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isValidSudoku(board [][]byte) bool
+```
+
+**Python:**
+```python
+def is_valid_sudoku(board: List[List[str]]) -> bool:
 ```

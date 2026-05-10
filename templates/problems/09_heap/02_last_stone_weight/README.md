@@ -42,6 +42,13 @@ Explanation: Only one stone exists, so it is the last remaining stone.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func lastStoneWeight(stones []int) int
+```
+
+**Python:**
+```python
+def last_stone_weight(stones: List[int]) -> int:
 ```

@@ -52,6 +52,13 @@ Explanation: The matrix has a single element which equals the target.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func searchMatrix(matrix [][]int, target int) bool
+```
+
+**Python:**
+```python
+def search_matrix(matrix: List[List[int]], target: int) -> bool:
 ```

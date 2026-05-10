@@ -41,6 +41,13 @@ Explanation: 0 + 0 = 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func getSum(a int, b int) int
+```
+
+**Python:**
+```python
+def get_sum(a: int, b: int) -> int:
 ```

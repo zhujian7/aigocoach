@@ -53,6 +53,13 @@ Explanation: "hot" -> "dot" (2 words in the sequence).
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func ladderLength(beginWord string, endWord string, wordList []string) int
+```
+
+**Python:**
+```python
+def ladder_length(begin_word: str, end_word: str, word_list: List[str]) -> int:
 ```

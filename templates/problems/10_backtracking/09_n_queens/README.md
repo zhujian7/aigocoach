@@ -44,6 +44,13 @@ Explanation: There is no solution for the 2-queens puzzle.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func solveNQueens(n int) [][]string
+```
+
+**Python:**
+```python
+def solve_n_queens(n: int) -> List[List[str]]:
 ```

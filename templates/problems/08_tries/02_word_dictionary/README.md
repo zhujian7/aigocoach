@@ -52,6 +52,8 @@ Explanation: "." matches "a" (single character). ".." requires a two-character w
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type WordDictionary struct {
     Root *TrieNode
@@ -62,4 +64,12 @@ func NewWordDictionary() WordDictionary
 func (wd *WordDictionary) AddWord(word string)
 
 func (wd *WordDictionary) Search(word string) bool
+```
+
+**Python:**
+```python
+class WordDictionary
+def __init__(self):
+def add_word(self, word: str) -> None:
+def search(self, word: str) -> bool:
 ```

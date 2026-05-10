@@ -44,6 +44,13 @@ Output: false
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func wordBreak(s string, wordDict []string) bool
+```
+
+**Python:**
+```python
+def word_break(s: str, word_dict: List[str]) -> bool:
 ```

@@ -46,6 +46,13 @@ Explanation: Both 'a's from t must be included in the window. Since s only has o
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minWindow(s string, t string) string
+```
+
+**Python:**
+```python
+def min_window(s: str, t: str) -> str:
 ```

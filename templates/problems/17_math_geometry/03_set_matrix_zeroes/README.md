@@ -48,6 +48,13 @@ Explanation: No element is 0, so the matrix remains unchanged.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func setZeroes(matrix [][]int)
+```
+
+**Python:**
+```python
+def set_zeroes(matrix: List[List[int]]) -> None:
 ```

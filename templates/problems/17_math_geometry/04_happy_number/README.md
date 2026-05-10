@@ -43,6 +43,13 @@ Explanation: 1 is already 1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isHappy(n int) bool
+```
+
+**Python:**
+```python
+def is_happy(n: int) -> bool:
 ```

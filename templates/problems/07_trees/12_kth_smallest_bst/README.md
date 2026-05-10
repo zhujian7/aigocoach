@@ -47,6 +47,13 @@ Explanation: The inorder traversal is [1, 2, 3, 4]. The 2nd smallest element is 
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func kthSmallest(root *TreeNode, k int) int
+```
+
+**Python:**
+```python
+def kth_smallest(root: Optional[TreeNode], k: int) -> int:
 ```

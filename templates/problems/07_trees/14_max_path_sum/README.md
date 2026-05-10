@@ -46,6 +46,13 @@ Explanation: With only one node, the maximum path sum is the node's value itself
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxPathSum(root *TreeNode) int
+```
+
+**Python:**
+```python
+def max_path_sum(root: Optional[TreeNode]) -> int:
 ```

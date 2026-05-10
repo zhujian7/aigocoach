@@ -42,6 +42,13 @@ Explanation: The array can be partitioned as [1,6,7] and [2,3,4,5], both summing
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func canPartition(nums []int) bool
+```
+
+**Python:**
+```python
+def can_partition(nums: List[int]) -> bool:
 ```

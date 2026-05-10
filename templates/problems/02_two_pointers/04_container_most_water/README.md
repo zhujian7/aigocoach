@@ -48,6 +48,13 @@ Explanation: The lines at index 0 (height 4) and index 4 (height 4) form a conta
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxArea(height []int) int
+```
+
+**Python:**
+```python
+def max_area(height: List[int]) -> int:
 ```

@@ -47,6 +47,13 @@ Output: 1
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func longestIncreasingPath(matrix [][]int) int
+```
+
+**Python:**
+```python
+def longest_increasing_path(matrix: List[List[int]]) -> int:
 ```

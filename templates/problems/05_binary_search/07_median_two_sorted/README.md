@@ -48,6 +48,13 @@ Explanation: The merged array is [1] and the median is 1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64
+```
+
+**Python:**
+```python
+def find_median_sorted_arrays(nums1: List[int], nums2: List[int]) -> float:
 ```

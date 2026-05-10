@@ -52,6 +52,13 @@ Output: ["JFK","ATL","JFK"]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findItinerary(tickets [][]string) []string
+```
+
+**Python:**
+```python
+def find_itinerary(tickets: List[List[str]]) -> List[str]:
 ```

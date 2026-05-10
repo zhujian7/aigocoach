@@ -50,6 +50,13 @@ Explanation: (1 - 2) = -1
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func evalRPN(tokens []string) int
+```
+
+**Python:**
+```python
+def eval_rpn(tokens: List[str]) -> int:
 ```

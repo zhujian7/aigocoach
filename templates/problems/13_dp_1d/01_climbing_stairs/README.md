@@ -40,6 +40,13 @@ Output: 8
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func climbStairs(n int) int
+```
+
+**Python:**
+```python
+def climb_stairs(n: int) -> int:
 ```

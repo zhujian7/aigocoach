@@ -51,6 +51,13 @@ Explanation: Removing the last edge [5,1] breaks the cycle.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findRedundantConnection(edges [][]int) []int
+```
+
+**Python:**
+```python
+def find_redundant_connection(edges: List[List[int]]) -> List[int]:
 ```

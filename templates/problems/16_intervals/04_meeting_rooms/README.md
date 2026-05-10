@@ -43,6 +43,13 @@ Explanation: The meetings touch at boundary point 5 but do not overlap.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func canAttendMeetings(intervals [][]int) bool
+```
+
+**Python:**
+```python
+def can_attend_meetings(intervals: List[List[int]]) -> bool:
 ```

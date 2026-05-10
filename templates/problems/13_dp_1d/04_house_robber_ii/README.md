@@ -41,6 +41,13 @@ Output: 3
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func robII(nums []int) int
+```
+
+**Python:**
+```python
+def rob_ii(nums: List[int]) -> int:
 ```

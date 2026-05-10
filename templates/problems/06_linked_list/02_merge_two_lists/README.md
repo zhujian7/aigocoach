@@ -47,6 +47,13 @@ Explanation: Merging two empty lists produces an empty list.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode
+```
+
+**Python:**
+```python
+def merge_two_lists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 ```

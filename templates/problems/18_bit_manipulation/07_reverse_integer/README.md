@@ -43,6 +43,13 @@ Explanation: Reversing the digits of 120 gives 21 (trailing zeros are dropped).
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func reverse(x int) int
+```
+
+**Python:**
+```python
+def reverse(x: int) -> int:
 ```

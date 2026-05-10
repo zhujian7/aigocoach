@@ -42,6 +42,13 @@ Explanation: Buy on day 0, sell on day 1 for profit of 1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxProfitCooldown(prices []int) int
+```
+
+**Python:**
+```python
+def max_profit_cooldown(prices: List[int]) -> int:
 ```

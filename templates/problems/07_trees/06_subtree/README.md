@@ -48,6 +48,13 @@ Explanation: The entire tree is identical to subRoot.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isSubtree(root *TreeNode, subRoot *TreeNode) bool
+```
+
+**Python:**
+```python
+def is_subtree(root: Optional[TreeNode], sub_root: Optional[TreeNode]) -> bool:
 ```

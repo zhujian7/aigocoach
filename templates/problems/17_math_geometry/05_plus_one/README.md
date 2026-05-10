@@ -45,6 +45,13 @@ Explanation: The array represents the integer 999. Incrementing by one gives 100
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func plusOne(digits []int) []int
+```
+
+**Python:**
+```python
+def plus_one(digits: List[int]) -> List[int]:
 ```

@@ -47,6 +47,13 @@ Explanation: 999 + 1 = 1000, represented in reverse as [0,0,0,1].
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode
+```
+
+**Python:**
+```python
+def add_two_numbers(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 ```

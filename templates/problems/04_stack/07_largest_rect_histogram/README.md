@@ -48,6 +48,13 @@ Explanation: All bars have height 3, so the rectangle spans all 4 bars: 3 * 4 = 
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func largestRectangleArea(heights []int) int
+```
+
+**Python:**
+```python
+def largest_rectangle_area(heights: List[int]) -> int:
 ```

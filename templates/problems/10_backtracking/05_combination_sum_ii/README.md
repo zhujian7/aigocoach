@@ -43,6 +43,13 @@ Explanation: No combination sums to 1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func combinationSum2(candidates []int, target int) [][]int
+```
+
+**Python:**
+```python
+def combination_sum2(candidates: List[int], target: int) -> List[List[int]]:
 ```

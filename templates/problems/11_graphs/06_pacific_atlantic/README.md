@@ -50,6 +50,13 @@ Explanation: On a flat grid, water from every cell can reach both oceans.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func pacificAtlantic(heights [][]int) [][]int
+```
+
+**Python:**
+```python
+def pacific_atlantic(heights: List[List[int]]) -> List[List[int]]:
 ```

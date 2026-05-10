@@ -46,6 +46,13 @@ Explanation: An empty tree remains empty after inversion.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func invertTree(root *TreeNode) *TreeNode
+```
+
+**Python:**
+```python
+def invert_tree(root: Optional[TreeNode]) -> Optional[TreeNode]:
 ```

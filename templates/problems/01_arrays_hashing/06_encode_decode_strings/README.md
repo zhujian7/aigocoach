@@ -45,7 +45,15 @@ Explanation: Special characters in the strings must be handled correctly. The en
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func encode(strs []string) string
 func decode(s string) []string
+```
+
+**Python:**
+```python
+def encode(strs: List[str]) -> str:
+def decode(s: str) -> List[str]:
 ```

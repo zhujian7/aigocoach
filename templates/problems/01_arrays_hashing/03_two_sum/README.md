@@ -44,6 +44,13 @@ Output: [0,1]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func twoSum(nums []int, target int) []int
+```
+
+**Python:**
+```python
+def two_sum(nums: List[int], target: int) -> List[int]:
 ```

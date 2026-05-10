@@ -41,6 +41,13 @@ Explanation: Reversing the bits of 1 places the single set bit at position 31.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func reverseBits(num uint32) uint32
+```
+
+**Python:**
+```python
+def reverse_bits(num: int) -> int:
 ```

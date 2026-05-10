@@ -56,6 +56,8 @@ Explanation: No axis-aligned square can be formed with the query point.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type DetectSquares struct {}
 
@@ -64,4 +66,12 @@ func Constructor() DetectSquares
 func (ds *DetectSquares) Add(point []int)
 
 func (ds *DetectSquares) Count(point []int) int
+```
+
+**Python:**
+```python
+class DetectSquares
+def __init__(self):
+def add(self, point: List[int]) -> None:
+def count(self, point: List[int]) -> int:
 ```

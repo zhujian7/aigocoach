@@ -42,6 +42,13 @@ Output: 0
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func coinChange(coins []int, amount int) int
+```
+
+**Python:**
+```python
+def coin_change(coins: List[int], amount: int) -> int:
 ```

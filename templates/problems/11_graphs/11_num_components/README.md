@@ -48,6 +48,13 @@ Explanation: No edges means each node is its own component.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func countComponents(n int, edges [][]int) int
+```
+
+**Python:**
+```python
+def count_components(n: int, edges: List[List[int]]) -> int:
 ```

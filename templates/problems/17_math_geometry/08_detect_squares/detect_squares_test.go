@@ -29,7 +29,7 @@ func TestDetectSquares(t *testing.T) {
 		},
 		{
 			"multiple squares from one query",
-			[][]int{{0, 0}, {1, 0}, {1, 1}, {0, 1}, {2, 0}, {2, 1}},
+			[][]int{{0, 0}, {1, 0}, {1, 1}, {0, 1}, {2, 0}, {2, 2}, {0, 2}},
 			[]int{0, 0},
 			2,
 		},

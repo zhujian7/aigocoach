@@ -46,6 +46,13 @@ Explanation: No water can be trapped because the bars are in strictly increasing
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func trap(height []int) int
+```
+
+**Python:**
+```python
+def trap(height: List[int]) -> int:
 ```

@@ -41,6 +41,13 @@ Explanation: The entire string is a palindrome.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func longestPalindrome(s string) string
+```
+
+**Python:**
+```python
+def longest_palindrome(s: str) -> str:
 ```

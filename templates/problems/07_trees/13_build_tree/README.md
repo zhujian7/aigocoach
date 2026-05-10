@@ -48,6 +48,13 @@ Explanation: Node 2 appears before 1 in inorder, so 2 is the left child of 1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func buildTreeFromPreIn(preorder []int, inorder []int) *TreeNode
+```
+
+**Python:**
+```python
+def build_tree_from_pre_in(preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
 ```

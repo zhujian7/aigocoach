@@ -49,6 +49,13 @@ Explanation: The Manhattan distance between the two points is |0-1| + |0-1| = 2.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func minCostConnectPoints(points [][]int) int
+```
+
+**Python:**
+```python
+def min_cost_connect_points(points: List[List[int]]) -> int:
 ```

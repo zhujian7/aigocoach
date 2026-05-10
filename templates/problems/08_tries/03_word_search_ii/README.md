@@ -52,6 +52,13 @@ Explanation: The single cell matches the single-character word.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findWords(board [][]byte, words []string) []string
+```
+
+**Python:**
+```python
+def find_words(board: List[List[str]], words: List[str]) -> List[str]:
 ```

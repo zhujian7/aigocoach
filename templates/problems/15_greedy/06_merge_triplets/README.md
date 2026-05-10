@@ -43,6 +43,13 @@ Explanation: Triplet [10,1,1] is filtered out because 10 > target[0]. Merge [2,5
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func mergeTriplets(triplets [][]int, target []int) bool
+```
+
+**Python:**
+```python
+def merge_triplets(triplets: List[List[int]], target: List[int]) -> bool:
 ```

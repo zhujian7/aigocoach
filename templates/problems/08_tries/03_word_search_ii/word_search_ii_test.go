@@ -48,7 +48,7 @@ func TestFindWords(t *testing.T) {
 				{'c', 'd'},
 			},
 			words: []string{"ab", "ac", "abdc", "abcd", "dcba"},
-			want:  []string{"ab", "abdc", "ac", "dcba"},
+			want:  []string{"ab", "abdc", "ac"},
 		},
 		{
 			name:  "no words",

@@ -52,6 +52,13 @@ Explanation: The path would require reusing a cell, which is not allowed.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func exist(board [][]byte, word string) bool
+```
+
+**Python:**
+```python
+def exist(board: List[List[str]], word: str) -> bool:
 ```

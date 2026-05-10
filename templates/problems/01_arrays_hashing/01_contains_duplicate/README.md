@@ -41,6 +41,13 @@ Output: true
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func containsDuplicate(nums []int) bool
+```
+
+**Python:**
+```python
+def contains_duplicate(nums: List[int]) -> bool:
 ```

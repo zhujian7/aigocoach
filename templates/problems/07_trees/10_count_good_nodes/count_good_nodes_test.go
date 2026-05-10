@@ -12,7 +12,7 @@ func TestGoodNodes(t *testing.T) {
 		{"example 2", []int{3, 3, -101, 4, 2}, 3},
 		{"single node", []int{1}, 1},
 		{"all same", []int{1, 1, 1, 1, 1}, 5},
-		{"decreasing", []int{5, 3, 4, 1, 2, -101, 3}, 2},
+		{"decreasing", []int{5, 3, 4, 1, 2, -101, 3}, 1},
 		{"increasing left", []int{1, 2, -101, 3}, 3},
 	}
 	for _, tt := range tests {

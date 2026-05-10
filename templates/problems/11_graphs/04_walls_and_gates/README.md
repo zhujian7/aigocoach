@@ -60,6 +60,13 @@ Explanation: No gates exist, so all rooms remain INF.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func wallsAndGates(rooms [][]int)
+```
+
+**Python:**
+```python
+def walls_and_gates(rooms: List[List[int]]) -> None:
 ```

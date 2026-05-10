@@ -41,6 +41,13 @@ Output: 1
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func uniquePaths(m int, n int) int
+```
+
+**Python:**
+```python
+def unique_paths(m: int, n: int) -> int:
 ```

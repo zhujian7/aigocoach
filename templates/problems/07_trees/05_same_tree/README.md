@@ -48,6 +48,13 @@ Explanation: Both trees have the same structure but different values at correspo
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isSameTree(p *TreeNode, q *TreeNode) bool
+```
+
+**Python:**
+```python
+def is_same_tree(p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
 ```

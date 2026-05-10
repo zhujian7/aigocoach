@@ -44,6 +44,13 @@ Explanation: The origin point itself has distance 0, which is the smallest.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func kClosest(points [][]int, k int) [][]int
+```
+
+**Python:**
+```python
+def k_closest(points: List[List[int]], k: int) -> List[List[int]]:
 ```

@@ -54,6 +54,13 @@ Explanation: L0->L2->L1.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func reorderList(head *ListNode)
+```
+
+**Python:**
+```python
+def reorder_list(head: Optional[ListNode]) -> None:
 ```

@@ -45,6 +45,13 @@ Explanation: The opening '(' does not match the closing ']'.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isValid(s string) bool
+```
+
+**Python:**
+```python
+def is_valid(s: str) -> bool:
 ```

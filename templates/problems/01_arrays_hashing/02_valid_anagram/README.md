@@ -43,6 +43,13 @@ Output: true
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isAnagram(s string, t string) bool
+```
+
+**Python:**
+```python
+def is_anagram(s: str, t: str) -> bool:
 ```

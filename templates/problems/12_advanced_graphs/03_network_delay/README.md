@@ -51,6 +51,13 @@ Explanation: Only one node, signal is already there.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func networkDelayTime(times [][]int, n int, k int) int
+```
+
+**Python:**
+```python
+def network_delay_time(times: List[List[int]], n: int, k: int) -> int:
 ```

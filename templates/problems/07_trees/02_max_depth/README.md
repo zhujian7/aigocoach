@@ -44,6 +44,13 @@ Explanation: An empty tree has depth 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxDepth(root *TreeNode) int
+```
+
+**Python:**
+```python
+def max_depth(root: Optional[TreeNode]) -> int:
 ```

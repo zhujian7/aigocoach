@@ -46,6 +46,13 @@ Explanation: An empty tree is considered balanced.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isBalanced(root *TreeNode) bool
+```
+
+**Python:**
+```python
+def is_balanced(root: Optional[TreeNode]) -> bool:
 ```

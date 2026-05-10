@@ -44,6 +44,13 @@ Explanation: s2 contains the permutation "baa" of s1 as a substring.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func checkInclusion(s1 string, s2 string) bool
+```
+
+**Python:**
+```python
+def check_inclusion(s1: str, s2: str) -> bool:
 ```

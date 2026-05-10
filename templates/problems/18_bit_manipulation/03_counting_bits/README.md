@@ -43,6 +43,13 @@ Explanation: Only 0 itself, which has zero 1 bits.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func countBits(n int) []int
+```
+
+**Python:**
+```python
+def count_bits(n: int) -> List[int]:
 ```

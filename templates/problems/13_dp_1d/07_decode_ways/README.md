@@ -42,6 +42,13 @@ Explanation: "06" cannot be decoded because leading zeros make the encoding inva
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func numDecodings(s string) int
+```
+
+**Python:**
+```python
+def num_decodings(s: str) -> int:
 ```

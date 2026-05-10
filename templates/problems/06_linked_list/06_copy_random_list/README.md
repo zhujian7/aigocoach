@@ -53,6 +53,15 @@ Explanation: Nodes can have the same values. Random pointers can be null.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func copyRandomList(head *RandomNode) *RandomNode
+```
+
+**Python:**
+```python
+class RandomNode
+def __init__(self, val: int = 0, next: 'RandomNode' = None, random: 'RandomNode' = None):
+def copy_random_list(head: Optional[RandomNode]) -> Optional[RandomNode]:
 ```

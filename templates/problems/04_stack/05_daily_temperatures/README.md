@@ -42,6 +42,13 @@ Explanation: Each day (except the last) has the next day as a warmer day.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func dailyTemperatures(temperatures []int) []int
+```
+
+**Python:**
+```python
+def daily_temperatures(temperatures: List[int]) -> List[int]:
 ```

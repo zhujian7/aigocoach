@@ -56,10 +56,20 @@ Explanation: There is no value with timestamp <= 3, so return "".
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type TimeMap struct{}
 
 func NewTimeMap() TimeMap
 func (t *TimeMap) Set(key string, value string, timestamp int)
 func (t *TimeMap) Get(key string, timestamp int) string
+```
+
+**Python:**
+```python
+class TimeMap
+def __init__(self):
+def set(self, key: str, value: str, timestamp: int) -> None:
+def get(self, key: str, timestamp: int) -> str:
 ```

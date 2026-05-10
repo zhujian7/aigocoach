@@ -2,13 +2,13 @@
 
 [English](README.md) | 中文
 
-> 你的 AI 算法教练 — 150 道经典算法题，用 Go 实现，AI 全程引导。
+> 你的 AI 算法教练 — 150 道经典算法题，支持 Go 和 Python，AI 全程引导。
 
 ## 这是什么？
 
 一个专为 AI 编程助手（Claude Code、Cursor、Windsurf 等）设计的面试刷题仓库。克隆下来，打开项目，就能开始和 AI 教练一起练习算法题：
 
-- 引导你完成 150 道题目（基于 NeetCode 150），不会直接给答案
+- 引导你完成 150 道题目（基于 NeetCode 150），支持 Go 和 Python，不会直接给答案
 - 在 `my-progress/checklist.md` 中追踪你的刷题进度
 - 在 `my-progress/progress.md` 中记录心得和错误，帮你发现薄弱环节
 - 根据你的错误模式生成变体练习题
@@ -40,20 +40,26 @@ code .
 
 ### 1. 选择题目
 
-打开 `my-progress/checklist.md`，查看按分类和难度排列的 150 道题目（编号格式 `01.01`、`01.02`……）。每道题都链接到你的工作文件。
+打开 `my-progress/checklist.md`，查看按分类和难度排列的 150 道题目（编号格式 `01.01`、`01.02`……）。每道题都链接到你的 Go 和 Python 工作文件。
 
 ### 2. 编写解法
 
-编辑 `my-progress/problems/` 下对应的 `.go` 文件 — 函数签名已经定义好，只需填写函数体。
+编辑 `my-progress/problems/` 下对应的 `.go` 或 `.py` 文件 — 函数签名已经定义好，只需填写函数体。选择你想练习的语言即可。
 
 ### 3. 运行测试
 
 ```bash
-# 测试单道题目
+# Go — 测试单道题目
 go test ./my-progress/problems/01_arrays_hashing/03_two_sum/... -v
 
-# 测试整个分类
+# Go — 测试整个分类
 go test ./my-progress/problems/07_trees/... -v
+
+# Python — 测试单道题目
+pytest my-progress/problems/01_arrays_hashing/03_two_sum/ -v
+
+# Python — 测试整个分类
+pytest my-progress/problems/07_trees/ -v
 ```
 
 ### 4. 追踪进度
@@ -62,7 +68,7 @@ AI 教练会自动更新 `my-progress/checklist.md`（打勾）和 `my-progress/
 
 ### 5. 查看参考答案
 
-每道题的参考答案在 `templates/problems/<分类>/<题目>/solution.go`。卡住的时候可以让 AI 教练提示，或者直接查看。
+每道题的参考答案在 `templates/problems/<分类>/<题目>/solution.go`（Go）和 `solution.py`（Python）。卡住的时候可以让 AI 教练提示，或者直接查看。
 
 ### 6. 重置进度
 
@@ -84,9 +90,12 @@ aigocoach/
 │   └── problems/              # 题目桩、测试、参考答案、元数据
 │       ├── 01_arrays_hashing/
 │       │   ├── 01_contains_duplicate/
-│       │   │   ├── contains_duplicate.go      # 函数桩
-│       │   │   ├── contains_duplicate_test.go  # 测试
-│       │   │   ├── solution.go                 # 最优参考解法
+│       │   │   ├── contains_duplicate.go      # Go 函数桩
+│       │   │   ├── contains_duplicate_test.go  # Go 测试
+│       │   │   ├── solution.go                 # Go 参考解法
+│       │   │   ├── contains_duplicate.py       # Python 函数桩
+│       │   │   ├── test_contains_duplicate.py  # Python 测试（pytest）
+│       │   │   ├── solution.py                 # Python 参考解法
 │       │   │   └── README.md                   # 难度、知识点、思路
 │       │   └── ...
 │       ├── 02_two_pointers/       # 双指针 — 5 题

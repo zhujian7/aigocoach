@@ -46,6 +46,13 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5 
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxProfit(prices []int) int
+```
+
+**Python:**
+```python
+def max_profit(prices: List[int]) -> int:
 ```

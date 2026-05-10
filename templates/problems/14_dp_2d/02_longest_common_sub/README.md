@@ -42,6 +42,13 @@ Explanation: There is no common subsequence, so the result is 0.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func longestCommonSubsequence(text1 string, text2 string) int
+```
+
+**Python:**
+```python
+def longest_common_subsequence(text1: str, text2: str) -> int:
 ```

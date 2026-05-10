@@ -43,6 +43,13 @@ Output: true
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isInterleave(s1 string, s2 string, s3 string) bool
+```
+
+**Python:**
+```python
+def is_interleave(s1: str, s2: str, s3: str) -> bool:
 ```

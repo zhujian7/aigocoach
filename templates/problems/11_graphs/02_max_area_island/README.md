@@ -55,6 +55,13 @@ Output: 4
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxAreaOfIsland(grid [][]int) int
+```
+
+**Python:**
+```python
+def max_area_of_island(grid: List[List[int]]) -> int:
 ```

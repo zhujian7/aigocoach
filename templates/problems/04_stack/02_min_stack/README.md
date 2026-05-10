@@ -58,6 +58,8 @@ Explanation: After pushing 5, both Top and GetMin return 5.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type MinStack struct{}
 
@@ -66,4 +68,14 @@ func (s *MinStack) Push(val int)
 func (s *MinStack) Pop()
 func (s *MinStack) Top() int
 func (s *MinStack) GetMin() int
+```
+
+**Python:**
+```python
+class MinStack
+def __init__(self):
+def push(self, val: int) -> None:
+def pop(self) -> None:
+def top(self) -> int:
+def get_min(self) -> int:
 ```

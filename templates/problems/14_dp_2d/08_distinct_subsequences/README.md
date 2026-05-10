@@ -42,6 +42,13 @@ Explanation: Each of the three 'a' characters forms a valid subsequence.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func numDistinct(s string, t string) int
+```
+
+**Python:**
+```python
+def num_distinct(s: str, t: str) -> int:
 ```

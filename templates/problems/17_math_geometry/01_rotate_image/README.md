@@ -47,6 +47,13 @@ Explanation: A 1x1 matrix remains unchanged after rotation.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func rotate(matrix [][]int)
+```
+
+**Python:**
+```python
+def rotate(matrix: List[List[int]]) -> None:
 ```

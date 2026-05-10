@@ -42,6 +42,13 @@ Explanation: Burst the only balloon to get 1*5*1 = 5 coins.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxCoins(nums []int) int
+```
+
+**Python:**
+```python
+def max_coins(nums: List[int]) -> int:
 ```

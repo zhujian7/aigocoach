@@ -48,6 +48,13 @@ Explanation: A cycle exists, so no valid ordering is possible.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findOrder(numCourses int, prerequisites [][]int) []int
+```
+
+**Python:**
+```python
+def find_order(num_courses: int, prerequisites: List[List[int]]) -> List[int]:
 ```

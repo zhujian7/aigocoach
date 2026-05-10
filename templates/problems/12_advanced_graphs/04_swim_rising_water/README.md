@@ -58,6 +58,13 @@ Output: 0
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func swimInWater(grid [][]int) int
+```
+
+**Python:**
+```python
+def swim_in_water(grid: List[List[int]]) -> int:
 ```

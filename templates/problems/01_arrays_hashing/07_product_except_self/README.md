@@ -44,6 +44,13 @@ Output: [3,2]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func productExceptSelf(nums []int) []int
+```
+
+**Python:**
+```python
+def product_except_self(nums: List[int]) -> List[int]:
 ```

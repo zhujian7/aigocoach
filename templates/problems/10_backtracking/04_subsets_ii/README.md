@@ -41,6 +41,13 @@ Output: [[], [1], [1,1], [1,1,1]]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func subsetsWithDup(nums []int) [][]int
+```
+
+**Python:**
+```python
+def subsets_with_dup(nums: List[int]) -> List[List[int]]:
 ```

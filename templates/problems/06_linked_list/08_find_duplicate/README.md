@@ -46,6 +46,13 @@ Explanation: The only possible number is 1, and it is duplicated.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func findDuplicate(nums []int) int
+```
+
+**Python:**
+```python
+def find_duplicate(nums: List[int]) -> int:
 ```

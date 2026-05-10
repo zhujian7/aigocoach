@@ -47,6 +47,13 @@ Explanation: The graph is disconnected (two separate components).
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func validTree(n int, edges [][]int) bool
+```
+
+**Python:**
+```python
+def valid_tree(n: int, edges: List[List[int]]) -> bool:
 ```

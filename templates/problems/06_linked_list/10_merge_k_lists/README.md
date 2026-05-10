@@ -46,6 +46,13 @@ Explanation: A single empty list results in an empty merged list.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func mergeKLists(lists []*ListNode) *ListNode
+```
+
+**Python:**
+```python
+def merge_k_lists(lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 ```

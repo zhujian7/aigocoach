@@ -67,6 +67,8 @@ Explanation: User 1 follows users 2 and 3. The feed merges their tweets in rever
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type Twitter struct {}
 
@@ -79,4 +81,14 @@ func (t *Twitter) GetNewsFeed(userId int) []int
 func (t *Twitter) Follow(followerId int, followeeId int)
 
 func (t *Twitter) Unfollow(followerId int, followeeId int)
+```
+
+**Python:**
+```python
+class Twitter
+def __init__(self):
+def post_tweet(self, user_id: int, tweet_id: int) -> None:
+def get_news_feed(self, user_id: int) -> List[int]:
+def follow(self, follower_id: int, followee_id: int) -> None:
+def unfollow(self, follower_id: int, followee_id: int) -> None:
 ```

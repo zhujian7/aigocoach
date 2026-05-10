@@ -45,6 +45,13 @@ Explanation: ".*" means zero or more of any character, which matches "ab".
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func isMatch(s string, p string) bool
+```
+
+**Python:**
+```python
+def is_match(s: str, p: str) -> bool:
 ```

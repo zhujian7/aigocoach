@@ -56,6 +56,13 @@ Explanation: The two 1s are diagonal, not adjacent, so they form separate island
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func numIslands(grid [][]byte) int
+```
+
+**Python:**
+```python
+def num_islands(grid: List[List[str]]) -> int:
 ```

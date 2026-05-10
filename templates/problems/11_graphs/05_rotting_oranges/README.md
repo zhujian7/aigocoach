@@ -51,6 +51,13 @@ Explanation: There are no fresh oranges, so 0 minutes are needed.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func orangesRotting(grid [][]int) int
+```
+
+**Python:**
+```python
+def oranges_rotting(grid: List[List[int]]) -> int:
 ```

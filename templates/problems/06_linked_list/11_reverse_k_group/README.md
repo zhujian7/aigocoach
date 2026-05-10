@@ -51,6 +51,13 @@ Explanation: Two complete groups of 2 are each reversed.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func reverseKGroup(head *ListNode, k int) *ListNode
+```
+
+**Python:**
+```python
+def reverse_k_group(head: Optional[ListNode], k: int) -> Optional[ListNode]:
 ```

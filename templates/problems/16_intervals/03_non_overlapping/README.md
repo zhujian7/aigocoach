@@ -45,6 +45,13 @@ Explanation: Two of the three identical intervals must be removed.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func eraseOverlapIntervals(intervals [][]int) int
+```
+
+**Python:**
+```python
+def erase_overlap_intervals(intervals: List[List[int]]) -> int:
 ```

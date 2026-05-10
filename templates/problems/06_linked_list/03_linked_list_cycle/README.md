@@ -53,6 +53,13 @@ Explanation: There is no cycle in the linked list.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func hasCycle(head *ListNode) bool
+```
+
+**Python:**
+```python
+def has_cycle(head: Optional[ListNode]) -> bool:
 ```

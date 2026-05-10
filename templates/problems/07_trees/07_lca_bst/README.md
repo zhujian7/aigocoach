@@ -47,6 +47,13 @@ Explanation: The LCA of nodes 1 and 3 is the root node 2.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func lowestCommonAncestor(root *TreeNode, p *TreeNode, q *TreeNode) *TreeNode
+```
+
+**Python:**
+```python
+def lowest_common_ancestor(root: Optional[TreeNode], p: Optional[TreeNode], q: Optional[TreeNode]) -> Optional[TreeNode]:
 ```

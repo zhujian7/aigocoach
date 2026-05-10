@@ -52,7 +52,7 @@ find . -name "README.md" -o -name "README_zh.md" | while read -r file; do
 done
 
 # Sync test files (always overwrite — tests are source of truth)
-find . -name "*_test.go" | while read -r file; do
+find . -name "*_test.go" -o -name "test_*.py" -o -name "conftest.py" | while read -r file; do
     dest="$ROUND_DIR/problems/$file"
     if [ ! -f "$dest" ] || ! cmp -s "$file" "$dest"; then
         cp "$file" "$dest"
@@ -62,7 +62,8 @@ find . -name "*_test.go" | while read -r file; do
 done
 
 # Sync solution stubs and solutions — only if missing (never overwrite user work)
-find . -name "*.go" ! -name "*_test.go" | while read -r file; do
+find . \( -name "*.go" ! -name "*_test.go" \) -o \( -name "*.py" ! -name "test_*.py" ! -name "conftest.py" \) \
+    | while read -r file; do
     dest="$ROUND_DIR/problems/$file"
     if [ ! -f "$dest" ]; then
         cp "$file" "$dest"

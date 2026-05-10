@@ -65,6 +65,13 @@ Explanation: The 'O' cells are connected to the top border, so they are not surr
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func solve(board [][]byte)
+```
+
+**Python:**
+```python
+def solve(board: List[List[str]]) -> None:
 ```

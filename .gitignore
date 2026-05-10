@@ -5,3 +5,6 @@ my-progress/
 *.out
 .DS_Store
 .aigocoach.yaml
+__pycache__/
+*.pyc
+.pytest_cache/

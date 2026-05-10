@@ -53,6 +53,13 @@ Explanation: When k = 1, each element is its own window, so the output is the ar
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func maxSlidingWindow(nums []int, k int) []int
+```
+
+**Python:**
+```python
+def max_sliding_window(nums: List[int], k: int) -> List[int]:
 ```

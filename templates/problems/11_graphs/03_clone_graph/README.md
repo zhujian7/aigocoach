@@ -51,6 +51,8 @@ Explanation: The graph is empty (null input).
 
 ## Function Signature
 
+**Go:**
+
 ```go
 type Node struct {
     Val       int
@@ -58,4 +60,11 @@ type Node struct {
 }
 
 func cloneGraph(node *Node) *Node
+```
+
+**Python:**
+```python
+class Node
+def __init__(self, val: int = 0, neighbors: list = None):
+def clone_graph(node: Optional[Node]) -> Optional[Node]:
 ```

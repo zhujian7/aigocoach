@@ -46,6 +46,13 @@ Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func missingNumber(nums []int) int
+```
+
+**Python:**
+```python
+def missing_number(nums: List[int]) -> int:
 ```

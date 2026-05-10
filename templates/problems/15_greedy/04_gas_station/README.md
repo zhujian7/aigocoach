@@ -42,6 +42,13 @@ Output: 0
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func canCompleteCircuit(gas []int, cost []int) int
+```
+
+**Python:**
+```python
+def can_complete_circuit(gas: List[int], cost: List[int]) -> int:
 ```

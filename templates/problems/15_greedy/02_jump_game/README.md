@@ -42,6 +42,13 @@ Explanation: You are already at the last index.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func canJump(nums []int) bool
+```
+
+**Python:**
+```python
+def can_jump(nums: List[int]) -> bool:
 ```

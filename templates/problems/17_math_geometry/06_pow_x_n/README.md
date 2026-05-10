@@ -45,6 +45,13 @@ Explanation: 2.1^3 = 9.261.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func myPow(x float64, n int) float64
+```
+
+**Python:**
+```python
+def my_pow(x: float, n: int) -> float:
 ```

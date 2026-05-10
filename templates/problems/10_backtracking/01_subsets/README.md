@@ -42,6 +42,13 @@ Output: [[], [1], [2], [1,2]]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func subsets(nums []int) [][]int
+```
+
+**Python:**
+```python
+def subsets(nums: List[int]) -> List[List[int]]:
 ```

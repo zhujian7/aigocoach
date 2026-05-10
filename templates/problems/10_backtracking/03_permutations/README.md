@@ -42,6 +42,13 @@ Output: [[0,1], [1,0]]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func permute(nums []int) [][]int
+```
+
+**Python:**
+```python
+def permute(nums: List[int]) -> List[List[int]]:
 ```

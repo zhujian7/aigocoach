@@ -42,6 +42,13 @@ Explanation: Already at the last index, no jumps needed.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func jump(nums []int) int
+```
+
+**Python:**
+```python
+def jump(nums: List[int]) -> int:
 ```

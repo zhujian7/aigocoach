@@ -43,6 +43,13 @@ Output: ["a","b","c"]
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func letterCombinations(digits string) []string
+```
+
+**Python:**
+```python
+def letter_combinations(digits: str) -> List[str]:
 ```

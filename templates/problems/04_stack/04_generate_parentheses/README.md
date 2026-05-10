@@ -41,6 +41,13 @@ Explanation: All 5 possible combinations of 3 pairs of well-formed parentheses.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func generateParenthesis(n int) []string
+```
+
+**Python:**
+```python
+def generate_parenthesis(n: int) -> List[str]:
 ```

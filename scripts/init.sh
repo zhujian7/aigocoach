@@ -46,7 +46,7 @@ find . -type d | while read -r dir; do
     mkdir -p "$ROUND_DIR/problems/$dir"
 done
 
-find . -name "*.go" -o -name "README.md" -o -name "README_zh.md" \
+find . -name "*.go" -o -name "*.py" -o -name "README.md" -o -name "README_zh.md" \
     | while read -r file; do
     cp "$file" "$ROUND_DIR/problems/$file"
 done
@@ -69,7 +69,12 @@ echo ""
 echo "  my-progress/progress.md — your progress tracker (shared across all rounds)"
 echo ""
 echo "Start a new round:   ./scripts/init.sh <round-number>"
-echo "Reference solutions: templates/problems/<category>/<problem>/solution.go"
-echo "Problem info:        templates/problems/<category>/<problem>/README.md"
+echo "Go solutions:      templates/problems/<category>/<problem>/solution.go"
+echo "Python solutions:  templates/problems/<category>/<problem>/solution.py"
+echo "Problem info:      templates/problems/<category>/<problem>/README.md"
+echo ""
+echo "Test commands:"
+echo "  Go:     go test ./my-progress/round-${ROUND}/problems/<category>/<problem>/... -v"
+echo "  Python: pytest my-progress/round-${ROUND}/problems/<category>/<problem>/ -v"
 echo ""
 echo "This directory is gitignored — it's your personal workspace."

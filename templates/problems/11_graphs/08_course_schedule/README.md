@@ -49,6 +49,13 @@ Explanation: No prerequisites, all courses can be taken independently.
 
 ## Function Signature
 
+**Go:**
+
 ```go
 func canFinish(numCourses int, prerequisites [][]int) bool
+```
+
+**Python:**
+```python
+def can_finish(num_courses: int, prerequisites: List[List[int]]) -> bool:
 ```
